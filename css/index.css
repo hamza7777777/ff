@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+header .navbar-nav .nav-link:hover {
+    color: blueviolet !important;
+}
+
+header .navbar-nav .nav-link.active {
+    color: rgb(255, 0, 0) !important;
+}
+header .navbar-brand img {
+    height: 60px;
+    margin-left: 35px;
+}
+header .navbar .the-ul {
+    margin: auto;
+    padding-right: 15%;
+}
+/***************************** slider home **************************/
+.home-slider {
+    position: relative;
+}
+.home-slider h3 {
+    
+    position: absolute;
+    top: 50%;    
+    left: 50%;
+    font-size: 30px;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+}
+.home-slider .overlay{
+    opacity: 85%;
+}
+
+/****************************** welcome ****************************/
+.welcome .row-welcom {
+    text-align: center;
+    color: rgb(222, 6, 6);
+    padding-top: 90px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.welcome img {
+    height: 300px;
+    width:  100%;
+}
+.welcome {
+    background-color: rgb(221, 221, 221);
+}
+.welcome .row-content {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+.welcome .text p{
+    padding-top: 40px;
+}
+/****************************** site ****************************/
+.site h1 {
+    text-align: center;
+    color: rgb(222, 6, 6);
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.site .title {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/****************************** footer **************************/
+footer {
+    background-color: black;
+    height: 140px;
+}
+footer .col-4 {
+    text-align: center;
+}
+footer p {
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+footer a {
+    font-size: 50px;
+    padding: 10px;
+    margin-top: 30px !important;
+    color: white;
+}
+footer i {
+    margin-top: 30px;
+}
+footer a:hover {
+    color: rgb(223, 26, 26);
+}
+
+
+
+/****************************** about us **************************/
+.about-us {
+    background-color: rgb(165, 165, 165);
+    padding-top: 160px;
+    padding-bottom: 120px;
+}
+.about-us h1 {
+    color: red;
+}
+.about-us p {
+    padding-right: 40px;
+}
+.about-us .photo img{
+    padding-top: 90px;
+    width: 100%;
+    height: 100%;
+}
+/****************************** vision **************************/
+.vision h1 {
+    color: red;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.vision p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    padding-bottom: 50px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.vision .futures {
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-top: 50px;
+}
+
+/****************************** portfolio **************************/
+
+.projects .projects-title h1 {
+    color: rgb(190, 7, 7);
+    margin-top: 120px;
+    text-align: center;
+}
+.projects .projects-title {
+    background-color: #212529;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 35px;
+}
+.projects .projects-title-2 h1 {
+    color: red;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.container-pro h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.container-pro img {
+    height: 500px;
+    width: 100%;
+}
+.projects .carousel-control-prev-icon,
+.projects .carousel-control-next-icon {
+    background-color: rgb(0, 0, 0);
+    width: 60px;
+    height: 60px;
+}
